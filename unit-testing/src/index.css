@@ -1,0 +1,35 @@
+.Counter {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  color: aliceblue;
+}
+.Counter P {
+  margin: 1rem;
+  margin-right: 1rem;
+}
+.Counter button {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.CounterBG {
+  background-color: rgb(25, 25, 25);
+}
+
+.heading {
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+  text-size-adjust: 80px;
+  font-weight: bolder;
+}
+.iconplus {
+  color: blue;
+  size: 150px;
+}
+
+.iconminus {
+  color: blue;
+  size: 0cap;
+}

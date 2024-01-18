@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`counter snapshots should it match DOM Snapshot 1`] = `
+<div
+  className="Counter"
+>
+  <button
+    data-testid="increase"
+    onClick={[Function]}
+  >
+    <svg
+      className="iconplus"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4z"
+      />
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+      />
+    </svg>
+  </button>
+  <p
+    data-testid="number"
+  >
+    1
+  </p>
+  <button
+    data-testid="decrease"
+    onClick={[Function]}
+  >
+    <svg
+      className="iconminus"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 11h10v2H7z"
+      />
+      <path
+        d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+      />
+    </svg>
+  </button>
+</div>
+`;
